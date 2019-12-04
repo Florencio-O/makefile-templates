@@ -13,7 +13,7 @@ clean:
 	$(info Cleaning...)
 	rm -f src/*.o
 
-# build then run
+# run
 run:
 	$(info Starting...)
 	bin/$(program)
