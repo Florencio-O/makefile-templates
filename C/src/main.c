@@ -2,5 +2,5 @@
 #include <stdlib.h>
 
 int main() {
- printf("Hello, World! This is a makefile template written in C!\n");
+ printf("Hello, World! This is an example program written in C!\n");
 }

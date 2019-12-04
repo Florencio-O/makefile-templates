@@ -1,9 +1,9 @@
-program = example
+program-name = example
 
-# build "example" program
+# build example program
 example: src/main.o
 	$(info Building...)
-	g++ src/main.o -o bin/$(program)
+	g++ src/main.o -o bin/$(program-name)
 
 main.o: src/main.c
 	g++ -c src/main.c
@@ -16,4 +16,4 @@ clean:
 # run
 run:
 	$(info Starting...)
-	bin/$(program)
+	bin/$(program-name)
